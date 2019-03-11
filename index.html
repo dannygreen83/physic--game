@@ -7,7 +7,9 @@
 </head>
 
 <body>
-
+<p>wins:</p>
+<p> losses:</p>
+<p>guesses</p>
   <div>
     <p id="directions-text">Press 1 to 5 to start playing!</p>
     <p id="userchoice-text"></p>
@@ -51,12 +53,13 @@
         if ((userGuess === "1" && computer === "1") ||
           (userGuess === "2" && computer === "2") || 
           (userGuess === "3" && computer === "3"))
-          (userGuess === "4" && computer === "4"))
-          (userGuess === "5" && computer === "5"))
+          (userGuess === "4" && computer === "4")
+          (userGuess === "5" && computer === "5")
            {
           wins++;
         } 
-        } else {
+
+         { else  (   ) {
           losses++;
         }
 
@@ -69,7 +72,7 @@
         winsText.textContent = "wins: " + wins;
         lossesText.textContent = "losses: " + losses;
        
-      };
+      
      
   </script>
 
